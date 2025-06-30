@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-import { DB_URI, NODE_ENV } from '../config/env'
+import { DB_URI, NODE_ENV } from '../config/env.js'
 
 // CHECK DATABASE CONNECTION
 if (!DB_URI) {
